@@ -13,11 +13,10 @@ body {
     color: white;
 }
 
-/* HEADER */
 .header {
     position: relative;
     text-align: center;
-    padding-bottom: 60px; /* profil fotoğrafı için boşluk */
+    padding-bottom: 60px;
 }
 
 .banner {
@@ -26,7 +25,6 @@ body {
     object-fit: cover;
 }
 
-/* PROFIL FOTO */
 .profile {
     width: 140px;
     height: 140px;
@@ -36,13 +34,12 @@ body {
     object-fit: cover;
     position: absolute;
     left: 50%;
-    bottom: -70px; /* bannerın altına oturması için */
+    bottom: -70px;
     transform: translateX(-50%);
 }
 
-/* Kanal adı ve açıklama */
 .channel-name {
-    margin-top: 80px; /* profil fotoğrafının altına konum */
+    margin-top: 80px;
     font-size: 32px;
     font-weight: bold;
     color: #00eaff;
@@ -54,7 +51,6 @@ body {
     margin-top: 5px;
 }
 
-/* Abone Ol Butonu */
 .subscribe-button {
     display: inline-block;
     margin-top: 10px;
@@ -73,7 +69,6 @@ body {
     transform: scale(1.05);
 }
 
-/* VIDEOLAR */
 .videos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -108,7 +103,6 @@ a {
     color: white;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
     .channel-name { font-size: 24px; }
     .profile { width: 100px; height: 100px; bottom: -50px; }
